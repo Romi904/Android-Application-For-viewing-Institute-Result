@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#A8D1D1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#82AAE3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_top"
+                android:backgroundTint="#9EA1D4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Name"
+                    android:textColor="#D5D3D3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="Roll"
+                    android:textColor="#D5D3D3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/nocolor"
+                android:backgroundTint="#9EA1D4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:shadowColor="#F3F0E8"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="0.5"
+                    android:text="Robin Hood"
+                    android:textColor="#0002A1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/roll"
+                    android:layout_width="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#2CF408"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="0.5"
+                    android:gravity="center"
+                    android:text="20CS8065"
+                    android:textColor="#0002A1"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nocolor"
+                android:backgroundTint="#86C8BC"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="Gender"
+                    android:textColor="#D5D3D3" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="CGPA"
+                    android:textColor="#D5D3D3" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="SGPA"
+                    android:textColor="#D5D3D3" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="Remark"
+                    android:textColor="#D5D3D3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="M"
+                    android:textColor="#810CA8"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cgpa"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="8.5"
+                    android:textColor="#810CA8"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sgpa"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="9.5"
+                    android:textColor="#810CA8"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/remark"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:text="Passed"
+                    android:textColor="#810CA8"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Supp"
+                android:textColor="#222121"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/supp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Passed"
+                android:textColor="#FB043C"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
